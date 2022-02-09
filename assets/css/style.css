@@ -19,9 +19,9 @@
 /*===========================
       01.COMMON css 
 ===========================*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700,800");
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #121212; }
@@ -58,7 +58,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 600;
   color: #121212;
   margin: 0px; }
@@ -79,7 +79,7 @@ h5 {
   font-size: 18px; }
 
 h6 {
-  font-size: 16px; }
+  font-size: 18px; }
 
 ul, ol {
   margin: 0px;
@@ -87,7 +87,7 @@ ul, ol {
   list-style-type: none; }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   color: #121212;
@@ -115,7 +115,7 @@ p {
       font-size: 30px;
       line-height: 35px; } }
 .section-title .text {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   color: #6c6c6c;
   margin-top: 24px; }
@@ -1570,7 +1570,7 @@ p {
     opacity: 1; } }
 .lg-btn {
   line-height: 64px !important;
-  font-size: 18px; }
+  font-size: 16px; }
   @media (max-width: 767px) {
     .lg-btn {
       font-size: 16px;
@@ -1581,7 +1581,7 @@ p {
   font-size: 20px; }
   @media (max-width: 767px) {
     .el-btn {
-      font-size: 18px;
+      font-size: 16px;
       line-height: 74px; } }
 
 .sm-btn {
@@ -2024,7 +2024,7 @@ p {
     padding-left: 44px;
     padding-right: 12px;
     position: relative;
-    font-size: 16px; }
+    font-size: 18px; }
   .form-input .input-items textarea {
     padding-top: 8px;
     height: 130px;
@@ -2365,8 +2365,8 @@ p {
   .carousel-item::before {
     position: absolute;
     content: '';
-    width: 33%;
-    height: 100%;
+    width: 33%;   
+    height: 100vh;
     background: -webkit-linear-gradient(rgba(0, 40, 136, 1) 0%, rgba(43, 219, 220, 0.3) 100%);
     background: -o-linear-gradient(rgba(0, 103, 244, 0.3) 0%, rgba(43, 219, 220, 0.3) 100%);
     background: linear-gradient(rgba(0, 103, 244, 0.3) 0%, rgba(43, 219, 220, 0.3) 100%);
@@ -2415,7 +2415,7 @@ p {
       padding-top: 190px;
       padding-bottom: 0; } }
   .slider-content .title {
-    font-size: 60px;
+    font-size: 70px;
     line-height: 70px;
     color: #fff;
     font-weight: 700; }
@@ -2429,11 +2429,11 @@ p {
         line-height: 90px; } }
     @media (max-width: 767px) {
       .slider-content .title {
-        font-size: 34px;
+        font-size: 44px;
         line-height: 45px; } }
   .slider-content .text {
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     margin-top: 16px; }
   .slider-content .slider-btn {
@@ -2541,8 +2541,8 @@ p {
   border-radius: 20px;
   background-color: #fff; }
   .single-features .features-title-icon .features-title a {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 32px;
+    line-height: 32px;
     color: #121212;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
@@ -2552,11 +2552,11 @@ p {
     font-weight: 400; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .single-features .features-title-icon .features-title a {
-        font-size: 24px;
-        line-height: 35px; } }
+        font-size: 32px;
+        line-height: 36px; } }
     @media (max-width: 767px) {
       .single-features .features-title-icon .features-title a {
-        font-size: 24px;
+        font-size: 32px;
         line-height: 35px; } }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .single-features .features-title-icon .features-title a {
@@ -2580,12 +2580,12 @@ p {
 
     .shape {
       position: relative;
-      width: 80px;
+      width: 75px;
       top: 0;
       left: 0; }
 
   .single-features .features-content .text {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px;
     color: #121212;
     margin-top: 16px; }
@@ -2603,7 +2603,7 @@ p {
   padding-bottom: 130px; }
 
 .portfolio-menu ul li {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   color: #6c6c6c;
   line-height: 48px;
@@ -2625,11 +2625,11 @@ p {
     margin-right: 0; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .portfolio-menu ul li {
-      font-size: 14px;
+      font-size: 16px;
       padding: 0 26px; } }
   @media (max-width: 767px) {
     .portfolio-menu ul li {
-      font-size: 14px;
+      font-size: 16px;
       padding: 0 22px;
       line-height: 42px; } }
   .portfolio-menu ul li::before {
@@ -2726,18 +2726,6 @@ p {
   background: linear-gradient(#2bdbdc 0%, #002888 100%); }
 
 
-  .pricing-style-2 {
-  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  padding: 54px 20px 48px;
-  border-radius: 20px;
-  position: relative;
-  overflow: hidden;
-  background-color: #fff;
-}
-
-
   .pricing-style .pricing-icon img {
     width: 100px; }
   .pricing-style .pricing-header .sub-title {
@@ -2767,21 +2755,21 @@ p {
   .pricing-style .pricing-list {
     margin-top: 24px; }
     .pricing-style .pricing-list ul li {
-      font-size: 16px;
+      font-size: 18px;
       line-height: 24px;
       color: #fff;
       margin-top: 16px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .pricing-style .pricing-list ul li {
-          font-size: 14px;
+          font-size: 16px;
           margin-top: 12px; } }
       @media (max-width: 767px) {
         .pricing-style .pricing-list ul li {
-          font-size: 14px;
+          font-size: 16px;
           margin-top: 12px; } }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
         .pricing-style .pricing-list ul li {
-          font-size: 16px;
+          font-size: 18px;
           margin-top: 16px; } }
       .pricing-style .pricing-list ul li i {
         color: #fff;
@@ -2811,7 +2799,7 @@ p {
     text-transform: uppercase; }
     @media (max-width: 767px) {
       .about-area .about-title .sub-title {
-        font-size: 16px; } }
+        font-size: 18px; } }
   .about-area .about-title .title {
     font-size: 30px;
     padding-top: 10px; }
@@ -2838,10 +2826,10 @@ p {
         padding-right: 20px; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .about-area .about-accordion .accordion .card .card-header a {
-            font-size: 16px; } }
+            font-size: 18px; } }
         @media (max-width: 767px) {
           .about-area .about-accordion .accordion .card .card-header a {
-            font-size: 16px; } }
+            font-size: 18px; } }
         .about-area .about-accordion .accordion .card .card-header a::before {
           content: '\ea58';
           font-family: 'LineIcons';
@@ -2875,7 +2863,7 @@ p {
     text-transform: uppercase; }
     @media (max-width: 767px) {
       .testimonial-area .testimonial-left-content .sub-title {
-        font-size: 16px; } }
+        font-size: 18px; } }
   .testimonial-area .testimonial-left-content .title {
     font-size: 32px;
     padding-top: 10px;
@@ -2961,11 +2949,11 @@ p {
     .single-testimonial .testimonial-author .author-info .author-name {
       padding-left: 30px; }
       .single-testimonial .testimonial-author .author-info .author-name .name {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 700;
         color: #121212; }
       .single-testimonial .testimonial-author .author-info .author-name .sub-title {
-        font-size: 14px;
+        font-size: 16px;
         color: #a4a4a4;
         margin-top: 5px; }
     @media (max-width: 767px) {
@@ -2978,10 +2966,10 @@ p {
         padding-top: 15px; } }
     .single-testimonial .testimonial-author .author-review .star li {
       display: inline-block;
-      font-size: 14px;
+      font-size: 16px;
       color: #ffb400; }
     .single-testimonial .testimonial-author .author-review .review {
-      font-size: 14px;
+      font-size: 16px;
       color: #000;
       margin-top: 5px; }
 
@@ -3075,7 +3063,7 @@ p {
           display: inline-block;
           margin: 0 8px; }
           .team-style-eleven .team-content .team-social .social li a {
-            font-size: 16px;
+            font-size: 18px;
             color: #a4a4a4;
             -webkit-transition: all 0.3s ease-out 0s;
             -moz-transition: all 0.3s ease-out 0s;
@@ -3097,7 +3085,7 @@ p {
         .team-style-eleven .team-content .team-name a {
           font-size: 18px; } }
     .team-style-eleven .team-content .sub-title {
-      font-size: 16px;
+      
       color: #002888;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
@@ -3106,7 +3094,7 @@ p {
       transition: all 0.3s ease-out 0s; }
       @media (max-width: 767px) {
         .team-style-eleven .team-content .sub-title {
-          font-size: 14px; } }
+          font-size: 16px; } }
   .team-style-eleven:hover .team-content {
     padding-top: 50px; }
     @media (max-width: 767px) {
@@ -3132,7 +3120,7 @@ p {
   background-color: #f4f6f7; }
 
 p.form-message.success, p.form-message.error {
-  font-size: 16px;
+  font-size: 18px;
   color: #333;
   background: #ddd;
   padding: 10px 15px;
@@ -3204,7 +3192,7 @@ p.form-message.success, p.form-message.error {
   .footer-area .footer-support {
     padding-top: 21px; }
     .footer-area .footer-support span {
-      font-size: 16px;
+      font-size: 18px;
       line-height: 24px;
       color: #121212;
       font-weight: 600;
@@ -3272,7 +3260,20 @@ p.form-message.success, p.form-message.error {
 
 /*# sourceMappingURL=style.css.map */
 
-.pricing-column {
-  float: left;
-  width: 33%;
+.pricing-style-2 {
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.pricing-style-2 .pricing-icon img{
+  width: 225px;
+}
+.pricing-style-2{
+  grid-gap: 4;
+  grid-column-gap: 4;
 }
