@@ -2158,6 +2158,12 @@ p {
   .form-style-five .form-input .input-items input, .form-style-five .form-input .input-items textarea {
     border-radius: 5px; }
 
+  .input-select {
+    border: 3px;
+    position: absolute;
+    border-radius: 5px;
+  }
+
 /*===========================
         09.NAVBAR css 
 ===========================*/
